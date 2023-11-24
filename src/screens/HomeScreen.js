@@ -1,5 +1,4 @@
 import React from 'react'
-import "./HomeScreen.css"
 import Row from '../Row';
 import requests from '../requests';
 import Banner from '../Banner';

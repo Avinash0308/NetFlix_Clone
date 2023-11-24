@@ -21,7 +21,7 @@ function LoginScreen() {
                     <SignupScreen/>
                 ):(
                     <>
-                        <h1>Tremendous Trailers, Wonderful Tv programmes and more.</h1>
+                        <h1>Tremendous Trailers, Wonderful Web Series and much more.</h1>
                         <h2>Watch anywhere. Relax Anytime.</h2>
                         <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
                         <div className='loginScreen_input'>
