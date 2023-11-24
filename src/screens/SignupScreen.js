@@ -42,11 +42,11 @@ function SignupScreen() {
     <div className='signupScreen'>
         <form>
             <h1>Sign In</h1>
-            <input ref = {emailRef} placeholder='Email' type = 'email'></input>
+            <input ref = {emailRef} placeholder='Username' type = 'email'></input>
             <input ref = {passwordRef} placeholder='Password' type = 'password'></input>
             <button type = 'submit' onClick={signIn}> Sign In</button>
             <h4>
-                <span className='signupScreen_gray'>New to Netflix? </span> 
+                <span className='signupScreen_gray'>New to Tumin? </span> 
                 <span className='signupScreen_link' onClick={register}> Sign up now.</span> 
 
             </h4>

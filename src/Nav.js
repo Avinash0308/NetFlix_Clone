@@ -25,13 +25,13 @@ function Nav() {
                 onClick = {() => history.push("/")}
                 
                 className='nav_logo'
-                src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png?20190206123158'
+                src='https://i.postimg.cc/TwPPbDCN/Screenshot-2023-11-24-224234-removebg-preview.png'
                 alt = 'Netflix Logo'
             />
             <img
                 onClick = {() => history.push("/profile")}
                 className='nav_smiley'
-                src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'
+                src='https://i.postimg.cc/CLDfS95v/Screenshot-2023-11-24-225712-removebg-preview.png'
             />
         </div>
     )

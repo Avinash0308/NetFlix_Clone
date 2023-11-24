@@ -19,13 +19,13 @@
 .nav_logo{
     position: fixed;
     left: 20px;
-    width: 80px;
+    width: 150px;
     object-fit: contain;
 }
 
 .nav_smiley{
     position:fixed;
     right: 20px;
-    width: 30px;
+    width: 60px;
     object-fit: contain;
 }

@@ -15,12 +15,11 @@ function ProfileScreen() {
             <h1>Edit Profile</h1>
             <div className="profileScreen_info">
                 <img
-                    src = "https://i.ibb.co/mT9qh5P/images-removebg-preview.png"
+                    src = "https://i.postimg.cc/TwPPbDCN/Screenshot-2023-11-24-224234-removebg-preview.png"
                 />
                 <div className = "profileScreen_details">
                     <h2>{user.email}</h2>
                     <div className = "profileScreen_plans">
-                        <h3>Plans</h3>
                         <button onClick={() => auth.signOut()} className = "profileScreen_signOut">Sign Out</button>
                     </div>
                 </div>
