@@ -26,8 +26,8 @@ function SignupScreen() {
         auth
         .signInWithEmailAndPassword(
             
-            emailRef.current.val,
-            passwordRef.current.val
+            emailRef.current.value,
+            passwordRef.current.value
         )
         .then((authUser) => {
             console.log(authUser)
